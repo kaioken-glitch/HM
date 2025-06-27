@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My BookShelf</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📚 My BookShelf</h1>
+
+  <!-- Filter Section -->
+  <label for="filter">Filter:</label>
+  <select id="filter">
+    <option value="all">All</option>
+    <option value="read">Read</option>
+    <option value="unread">Unread</option>
+  </select>
+
+  <!-- Book List -->
+  <ul id="book-list"></ul>
+
+  <!-- Add Book Form -->
+  <h2>Add a New Book</h2>
+  <form id="book-form">
+    <input type="text" id="title" placeholder="Book Title" required />
+    <input type="text" id="author" placeholder="Author" required />
+    <button type="submit">Add Book</button>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "id": "2",
+      "title": "1984",
+      "author": "George Orwell",
+      "status": "read"
+    },
+    {
+      "id": "8b18",
+      "title": "bar",
+      "author": "rihanna",
+      "status": "unread"
+    },
+    {
+      "id": "916c",
+      "title": "Harun",
+      "author": "bar",
+      "status": "unread"
+    },
+    {
+      "id": "4682",
+      "title": "Atomic Boom",
+      "author": "Yuva",
+      "status": "read"
+    },
+    {
+      "id": "ed70",
+      "title": "Rat",
+      "author": "Ali",
+      "status": "unread"
+    }
+  ]
+}
