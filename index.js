@@ -3,7 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("book-form");
   const filter = document.getElementById("filter");
 
-  const API_URL = "http://localhost:3000/books";
+  // Use production API URL when deployed, localhost for development
+  const API_BASE_URL = window.location.hostname === 'localhost' 
+    ? 'http://localhost:3000' 
+    : 'https://project-1-5awi.onrender.com';
+  
+  const API_URL = `${API_BASE_URL}/books`;
 
   let books = [];
 
