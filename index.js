@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const filter = document.getElementById("filter");
 
   // Use production API URL when deployed, localhost for development
-  const API_BASE_URL = window.location.hostname === 'localhost' 
-    ? 'http://localhost:3000' 
-    : 'https://project-1-5awi.onrender.com';
-  
-  const API_URL = `${API_BASE_URL}/books`;
+  //const API_BASE_URL = window.location.hostname === 'localhost' 
+  //  ? 'http://localhost:3000' 
+  //  : 'https://project-1-5awi.onrender.com';
+  //
+  //const API_URL = `${API_BASE_URL}/books`;
 
   let books = [];
 
